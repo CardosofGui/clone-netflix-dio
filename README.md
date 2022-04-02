@@ -5,7 +5,7 @@
 
 ---
 
-## Status do projeto:
+## Status do projeto
 Finalizado ✅
 
 ---
