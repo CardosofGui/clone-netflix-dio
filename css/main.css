@@ -9,9 +9,13 @@
     box-sizing: border-box;
 }
 
+
+/* Elementos base */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--preta);
+    color: white;
 }
 
 header .container{
@@ -36,4 +40,22 @@ header nav a{
 
 header nav a:hover{
     color: #FFF;
+}
+
+/* Filme principal */
+.filme-principal {
+    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60) 100%), url('../img/filme-principal.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .titulo {
+    font-size: 40px;
+}
+.filme-principal .descricao {
+    margin-bottom: 10px;
 }
